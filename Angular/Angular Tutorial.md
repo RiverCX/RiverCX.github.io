@@ -11,7 +11,7 @@
 ## webpack
 Angular 运行项目时会生成多个bundle文件，并注入到 index.html 中
 
-![Angular/assets/Angular Tutorial_image_1.png](Angular/assets/Angular%20Tutorial_image_1.png)
+![assets/Angular Tutorial_image_1.png](assets/Angular%20Tutorial_image_1.png)
 
 # Typescript OOP
 参考 [[TypeScript#Class & OOP]]
@@ -103,7 +103,7 @@ Angular中的 Module 模块是多个有关联的组件的容器
 使用 Cli 创建组件
 `ng g c course`  会创建4个文件：
 
- ![Angular/assets/Angular Tutorial_image_2.png](Angular/assets/Angular%20Tutorial_image_2.png)
+ ![assets/Angular Tutorial_image_2.png](assets/Angular%20Tutorial_image_2.png)
 
 并且自动将这个组件更新到根组件 AppModule 中
 
@@ -290,7 +290,7 @@ cli 创建：
 对于一个组件，与外界交互，主要是两方面：从外界接收数据（输入）、像外界抛出事件（输出）
 在Angular中，组件输入通过 property binding 实现，给元素的输入属性绑定值；组件输出通过抛出事件实现
 暴露给外界的输出和输出就是组件的 public API 
-![Angular/assets/Angular Tutorial_image_3.png](Angular/assets/Angular%20Tutorial_image_3.png)
+![assets/Angular Tutorial_image_3.png](assets/Angular%20Tutorial_image_3.png)
 ## Input Property
 将一个组件的属性标记为输入属性，外界在渲染该组件时，可以通过 DOM 属性绑定传值
 ```html
@@ -349,7 +349,7 @@ export class FavorateComponent{
 
 Shadow DOM 在浏览器环境的使用：
 
-![](Angular/assets/Angular%20Tutorial_image_4.png)
+![](assets/Angular%20Tutorial_image_4.png)
 
 在 Angular 中可以使用组件的元数据（`@Component`的参数）中的 `encapsulation` 属性来控制是否隔离组件，有三个选项：
 - `Emulated`（默认选项）：使用类似于 Shadow DOM 的方式来模拟样式的隔离（因为有些浏览器不支持 Shadow DOM），在这种模式下，Angular 会将组件的样式转化为带有唯一前缀的 CSS 类，从而避免与其他组件的样式发生冲突
@@ -405,7 +405,7 @@ Shadow DOM 在浏览器环境的使用：
 
 指令的两种类型：
 
-![](Angular/assets/Angular%20Tutorial_image_5.png)
+![](assets/Angular%20Tutorial_image_5.png)
 
 ## ngIf
 根据条件来添加或移除 HTML 元素
@@ -650,7 +650,7 @@ export class ExampleComponent {
 - 在模板中控制
 - 在类中控制
 
-![](Angular/assets/Angular%20Tutorial_image_6.png)
+![](assets/Angular%20Tutorial_image_6.png)
 
 使用模板驱动型表单需要在组件模块中导入 `FormsModule `模块
 
@@ -787,14 +787,14 @@ export class SignupFormComponent {
 ## Custom Validation
 validators 函数的接口：
 
-![](Angular/assets/Angular%20Tutorial_image_7.png)
+![](assets/Angular%20Tutorial_image_7.png)
 - 接收一个 `AbstractControl` 类型的参数
 - 返回一个 `ValidationErrors` 类型值
 
 > [!Tip] AbstractControl
 > FormControl 和 FromGroup 都是它的实现，所以 validator 可以在二者上使用
 
-![](Angular/assets/Angular%20Tutorial_image_8.png)
+![](assets/Angular%20Tutorial_image_8.png)
 ```ts
 // 新建一个 validators 文件
 export class UsernameValidators {
@@ -811,7 +811,7 @@ export class UsernameValidators {
 `FormControl`  的第三个参数接收异步验证器
 异步验证函数需要返回一个 `Promise` 或 `Observable`
 
-![tmp1691932573114_Angular Tutorial_image_1](Angular/assets/Angular%20Tutorial_image_9.png)
+![tmp1691932573114_Angular Tutorial_image_1](assets/Angular%20Tutorial_image_9.png)
 
 Promise 实例在异步操作结束后要返回一个 `ValidationErrors` 或者 `null`
 ```ts

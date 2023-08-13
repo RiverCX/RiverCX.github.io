@@ -1,6 +1,6 @@
-- 前端框架
+- 前端
 	- [Angular](Angular/Angular%20Tutorial.md)
 	- [React](/React)
 	- [Vue](/vue)
-- 算法笔记
-- JavaScript
+- 算法
+	- [算法笔记](DS%20&%20Algorithm/链表.md)

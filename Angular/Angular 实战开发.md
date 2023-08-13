@@ -5,7 +5,7 @@ Angular 是一个重量级的框架，内部集成了大量开箱即用的功能
 Angular 为大型应用开发而设计，提供了干净且松耦合的代码组织方式，使应用程序整洁更易于维护。
 [Angular](https://angular.io/)  [Angular 中文](https://angular.cn/)  [Angular CLI](https://cli.angular.io/)
 # 2. 架构预览
-![Angular/assets/Angular 实战开发_image_1.png](Angular/assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_1.png)
+![assets/Angular 实战开发_image_1.png](assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_1.png)
 
 ## 2.1 模块
 
@@ -121,11 +121,11 @@ Angular 会根据你指定的服务的类型来传递你想要使用的服务实
    8. --prefix
 
 使用 minimal 创建的项目会省去以下文件：
-![Angular/assets/Angular 实战开发_image_2.png](Angular/assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_2.png)
+![assets/Angular 实战开发_image_2.png](assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_2.png)
 
-![Angular/assets/Angular 实战开发_image_3.png](Angular/assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_3.png)
+![assets/Angular 实战开发_image_3.png](assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_3.png)
 
-![Angular/assets/Angular 实战开发_image_4.png](Angular/assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_4.png)
+![assets/Angular 实战开发_image_4.png](assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_4.png)
 
 3. 运行应用：`ng serve`
    1. --open=true 应用构建完成后在浏览器中运行
@@ -134,7 +134,7 @@ Angular 会根据你指定的服务的类型来传递你想要使用的服务实
    4. --port 更改应用运行端口
 4. 访问应用：`localhost:4200`
 
-![Angular/assets/Angular 实战开发_image_5.png](Angular/assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_5.png)
+![assets/Angular 实战开发_image_5.png](assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_5.png)
 
 ## 3.2 默认代码解析
 
@@ -164,7 +164,7 @@ platformBrowserDynamic()
 
 platformBrowserDynamic() 返回的对象：
 
-![Angular/assets/Angular 实战开发_image_6.png](Angular/assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_6.png)
+![assets/Angular 实战开发_image_6.png](assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_6.png)
 
 ### 3.2.2 environment.ts
 
@@ -250,7 +250,7 @@ export class AppComponent {}
 </html>
 ```
 
-![Angular/assets/Angular 实战开发_image_7.jpg](Angular/assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_7.jpg)
+![assets/Angular 实战开发_image_7.jpg](assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_7.jpg)
 
 ## 3.3 共享模块
 
@@ -759,7 +759,7 @@ export class AppComponent {
 
 # 8. 组件生命周期
 
-![Angular/assets/Angular 实战开发_image_8.png](Angular/assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_8.png)
+![assets/Angular 实战开发_image_8.png](assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_8.png)
 
 ## 8.1 挂载阶段
 
@@ -1257,11 +1257,11 @@ input.ng-touched.ng-invalid {
 
 在模型驱动表单中，表单字段需要是 FormControl 类的实例，实例对象可以验证表单字段中的值，值是否被修改过等等
 
-![Angular/assets/Angular 实战开发_image_9.jpg](Angular/assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_9.jpg)
+![assets/Angular 实战开发_image_9.jpg](assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_9.jpg)
 
 一组表单字段构成整个表单，整个表单需要是 FormGroup 类的实例，它可以对表单进行整体验证
 
-![Angular/assets/Angular 实战开发_image_10.jpg](Angular/assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_10.jpg)
+![assets/Angular 实战开发_image_10.jpg](assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_10.jpg)
 
 1. FormControl：表单组中的一个表单项
 2. FormGroup：表单组，表单至少是一个 FormGroup
@@ -2223,7 +2223,7 @@ export class HomeComponent {
 
 ## 13.1 概述
 
-![Angular/assets/Angular 实战开发_image_11.png](Angular/assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_11.png)
+![assets/Angular 实战开发_image_11.png](assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_11.png)
 
 ### 13.1.1 什么是 RxJS ?
 
@@ -2243,7 +2243,7 @@ RxJS 是一个用于处理异步编程的  JavaScript 库，目标是使编写�
 
 3. 订阅 ( subscribe )：类比 then 方法，通过订阅将可观察对象和观察者连接起来，当可观察对象发出数据时，订阅者可以接收到数据。
 
-![Angular/assets/Angular 实战开发_image_12.png](Angular/assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_12.png)
+![assets/Angular 实战开发_image_12.png](assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_12.png)
 
    ```typescript
    import { Observable } from "rxjs"
@@ -2353,7 +2353,7 @@ RxJS 是一个用于处理异步编程的  JavaScript 库，目标是使编写�
 
 5. 可观察对象可以有 n 多订阅者，**每次被订阅**时都会得到执行
 
-![Angular/assets/Angular 实战开发_image_13.png](Angular/assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_13.png)
+![assets/Angular 实战开发_image_13.png](assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_13.png)
 
    ```javascript
    const observable = new Observable(function () {
@@ -2437,7 +2437,7 @@ setTimeout(function () {
 
 range(start, length)，调用方法后返回 observable 对象，被订阅后会发出指定范围的数值。
 
-![Angular 实战开发_image_14](Angular/assets/Angular%20实战开发_image_14.png)
+![Angular 实战开发_image_14](assets/Angular%20实战开发_image_14.png)
 ```javascript
 import { range } from "rxjs"
 
@@ -2456,7 +2456,7 @@ range(0, 5).subscribe(n => console.log(n))
 
 将参数列表作为数据流返回。
 
-![Angular/assets/Angular 实战开发_image_15.png](Angular/assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_15.png)
+![assets/Angular 实战开发_image_15.png](assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_15.png)
 
 ```javascript
 of("a", "b", [], {}, true, 20).subscribe(v => console.log(v))
@@ -2466,7 +2466,7 @@ of("a", "b", [], {}, true, 20).subscribe(v => console.log(v))
 
 将 Array，Promise, Iterator 转换为 observable 对象。
 
-![Angular/assets/Angular 实战开发_image_16.png](Angular/assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_16.png)
+![assets/Angular 实战开发_image_16.png](assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_16.png)
 
 ```javascript
 from(["a", "b", "c"]).subscribe(v => console.log(v))
@@ -2492,7 +2492,7 @@ from(p()).subscribe(v => console.log(v))
 
 interval: 每隔一段时间发出一个数值，数值递增
 
-![Angular/assets/Angular 实战开发_image_17.png](Angular/assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_17.png)
+![assets/Angular 实战开发_image_17.png](assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_17.png)
 
 ```javascript
 import { interval } from "rxjs"
@@ -2502,7 +2502,7 @@ interval(1000).subscribe(n => console.log(n))
 
 timer：间隔时间过去以后发出数值，行为终止，或间隔时间发出数值后，继续按第二个参数的时间间隔继续发出值
 
-![Angular/assets/Angular 实战开发_image_18.png](Angular/assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_18.png)
+![assets/Angular 实战开发_image_18.png](assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_18.png)
 
 ```javascript
 import { timer } from "rxjs"
@@ -2515,7 +2515,7 @@ timer(0, 1000).subscribe(n => console.log(n))
 
 合并数据流，先让第一个数据流发出值，结束后再让第二个数据流发出值，进行整体合并。
 
-![Angular/assets/Angular 实战开发_image_19.png](Angular/assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_19.png)
+![assets/Angular 实战开发_image_19.png](assets/Angular%20%E5%AE%9E%E6%88%98%E5%BC%80%E5%8F%91_image_19.png)
 
 ```javascript
 import { concat, range } from "rxjs"
@@ -2527,7 +2527,7 @@ concat(range(1, 5), range(6, 5)).subscribe(console.log)
 
 合并数据流，多个参数一起发出数据流，按照时间线进行交叉合并。
 
-![](Angular/assets/Angular%20实战开发_image_20.png)
+![](assets/Angular%20实战开发_image_20.png)
 
 ```javascript
 import { merge, fromEvent, interval } from "rxjs"
@@ -2542,7 +2542,7 @@ merge(clicks, timer).subscribe(console.log)
 
 将两个 Obserable 中最新发出的数据流进行组合成新的数据流，以数组的形式发出。和当前最新的进行组合。
 
-![Angular/assets/Angular 实战开发_image_21.png](Angular/assets/Angular%20实战开发_image_21.png)
+![assets/Angular 实战开发_image_21.png](assets/Angular%20实战开发_image_21.png)
 
 ```javascript
 import { combineLatest, timer } from "rxjs"
@@ -2561,7 +2561,7 @@ combineLatest(firstTimer, secondTimer).subscribe(console.log)
 
 将多个 Observable 中的数据流进行组合。和将来最新的进行组合。
 
-![Angular/assets/Angular 实战开发_image_22.png](Angular/assets/Angular%20实战开发_image_22.png)
+![assets/Angular 实战开发_image_22.png](assets/Angular%20实战开发_image_22.png)
 
 ```javascript
 import { zip, of } from "rxjs"
@@ -2584,7 +2584,7 @@ zip(name, age, isDev)
 
 forkJoin 是 Rx 版本的 Promise.all()，即表示等到所有的 Observable 都完成后，才一次性返回值。
 
-![Angular/assets/Angular 实战开发_image_23.png](Angular/assets/Angular%20实战开发_image_23.png)
+![assets/Angular 实战开发_image_23.png](assets/Angular%20实战开发_image_23.png)
 
 ```javascript
 import axios from "axios"
@@ -2600,7 +2600,7 @@ forkJoin({
 
 ### 13.3.10 throwError
 
-![](Angular/assets/Angular%20实战开发_image_24.png)
+![](assets/Angular%20实战开发_image_24.png)
 
 返回可观察对象并向订阅者抛出错误。
 
@@ -2614,7 +2614,7 @@ throwError("发生了未知错误").subscribe({ error: console.log })
 
 如果 Observable 对象抛出错误，则该辅助方法会重新订阅 Observable 以获取数据流，参数为重新订阅次数。
 
-![Angular/assets/Angular 实战开发_image_25.png](Angular/assets/Angular%20实战开发_image_25.png)
+![assets/Angular 实战开发_image_25.png](assets/Angular%20实战开发_image_25.png)
 
 ```javascript
 import { interval, of, throwError } from "rxjs"
@@ -2672,7 +2672,7 @@ fromEvent(btn, "click").subscribe(e => console.log(e))
 
 map：对数据流进行转换，基于原有值进行转换。
 
-![Angular/assets/Angular 实战开发_image_26.png](Angular/assets/Angular%20实战开发_image_26.png)
+![assets/Angular 实战开发_image_26.png](assets/Angular%20实战开发_image_26.png)
 
 ```javascript
 import { interval } from "rxjs"
@@ -2685,7 +2685,7 @@ interval(1000)
 
 **mapTo：**对数据流进行转换，不关心原有值，可以直接传入要转换后的值。
 
-![](Angular/assets/Angular%20实战开发_image_27.png)
+![](assets/Angular%20实战开发_image_27.png)
 
 ```javascript
 import { interval } from "rxjs"
@@ -2700,7 +2700,7 @@ interval(1000)
 
 对数据流进行过滤。
 
-![](Angular/assets/Angular%20实战开发_image_28.png)
+![](assets/Angular%20实战开发_image_28.png)
 
 ```javascript
 import { range } from "rxjs"
@@ -2715,7 +2715,7 @@ range(1, 10)
 
 获取数据流对象中的属性值。
 
-![](Angular/assets/Angular%20实战开发_image_29.png)
+![](assets/Angular%20实战开发_image_29.png)
 
 ```javascript
 import { interval } from "rxjs"
@@ -2733,7 +2733,7 @@ interval(1000)
 
 获取数据流中的第一个值或者查找数据流中第一个符合条件的值，类似数组中的 find 方法。获取到值以后终止行为。
 
-![](Angular/assets/Angular%20实战开发_image_30.png)
+![](assets/Angular%20实战开发_image_30.png)
 
 ```javascript
 import { interval } from "rxjs"
@@ -2754,7 +2754,7 @@ interval(1000)
 
 在异步编程中提供默认值的时候非常有用。
 
-![](Angular/assets/Angular%20实战开发_image_31.png)
+![](assets/Angular%20实战开发_image_31.png)
 
 ```javascript
 import { interval } from "rxjs"
@@ -2777,7 +2777,7 @@ interval(1000)
 
 查看数据流中的每个值是否都符合条件，返回布尔值。类似数组中的 every 方法。
 
-![](Angular/assets/Angular%20实战开发_image_32.png)
+![](assets/Angular%20实战开发_image_32.png)
 
 ```javascript
 import { range } from "rxjs"
@@ -2795,7 +2795,7 @@ range(1, 9)
 
 **delay：**对上一环节的操作整体进行延迟，只执行一次。
 
-![](Angular/assets/Angular%20实战开发_image_33.png)
+![](assets/Angular%20实战开发_image_33.png)
 
 ```javascript
 import { from } from "rxjs"
@@ -2816,7 +2816,7 @@ from([1, 2, 3])
 
 **delayWhen：**对上一环节的操作进行延迟，上一环节发出多少数据流，传入的回调函数就会执行多次。
 
-![](Angular/assets/Angular%20实战开发_image_34.png)
+![](assets/Angular%20实战开发_image_34.png)
 
 ```javascript
 import { range, timer } from "rxjs"
@@ -2836,7 +2836,7 @@ range(1, 10)
 
 **take**：获取数据流中的前几个
 
-![](Angular/assets/Angular%20实战开发_image_35.png)
+![](assets/Angular%20实战开发_image_35.png)
 
 ```javascript
 import { range } from "rxjs"
@@ -2847,7 +2847,7 @@ range(1, 10).pipe(take(5)).subscribe(console.log)
 
 **takeWhile：**根据条件从数据源前面开始获取。
 
-![](Angular/assets/Angular%20实战开发_image_36.png)
+![](assets/Angular%20实战开发_image_36.png)
 
 ```javascript
 import { range } from "rxjs"
@@ -2860,7 +2860,7 @@ range(1, 10)
 
 **takeUntil：**接收可观察对象，当可观察对象发出值时，终止主数据源。
 
-![](Angular/assets/Angular%20实战开发_image_37.png)
+![](assets/Angular%20实战开发_image_37.png)
 
 ```javascript
 import { interval, timer } from "rxjs"
@@ -2876,7 +2876,7 @@ interval(100)
 
 **skip：**跳过前几个数据流。
 
-![](Angular/assets/Angular%20实战开发_image_38.png)
+![](assets/Angular%20实战开发_image_38.png)
 
 ```javascript
 import { range } from "rxjs"
@@ -2887,7 +2887,7 @@ range(1, 10).pipe(skip(5)).subscribe(console.log)
 
 **skipWhile：**根据条件进行数据流的跳过。
 
-![](Angular/assets/Angular%20实战开发_image_39.png)
+![](assets/Angular%20实战开发_image_39.png)
 
 ```javascript
 import { range } from "rxjs"
@@ -2900,7 +2900,7 @@ range(1, 10)
 
 **skipUntil：**跳过数据源中前多少时间发出的数据流，发送从这个时间以后数据源中发送的数据流。
 
-![](Angular/assets/Angular%20实战开发_image_40.png)
+![](assets/Angular%20实战开发_image_40.png)
 
 ```javascript
 import { timer, interval } from "rxjs"
@@ -2915,7 +2915,7 @@ interval(100)
 
 获取数据流中的最后一个。
 
-![](Angular/assets/Angular%20实战开发_image_41.png)
+![](assets/Angular%20实战开发_image_41.png)
 
 ```javascript
 import { range } from "rxjs"
@@ -2940,7 +2940,7 @@ interval(1000).pipe(take(5), last()).subscribe(console.log)
 Observable => [1, 2, 3]
 
 Observable => [Observable, Observable]
-![](Angular/assets/Angular%20实战开发_image_42.png))
+![](assets/Angular%20实战开发_image_42.png))
 
 ```javascript
 import { fromEvent, interval } from "rxjs"
@@ -2968,13 +2968,13 @@ interval(1000)
 
 **concatMap：**合并可观察对象并处理其发出的数据流。
 
-![](Angular/assets/Angular%20实战开发_image_43.png)
+![](assets/Angular%20实战开发_image_43.png)
 
 ### 13.4.13 reduce、scan
 
 **reduce**: 类似 JavaScript 数组中的 reduce，对数数据进行累计操作。reduce 会等待数据源中的数据流发送完成后再执行，执行时 reduce 内部遍历每一个数据流进行累计操作，操作完成得到结果将结果作为数据流发出。
 
-![](Angular/assets/Angular%20实战开发_image_44.png)
+![](assets/Angular%20实战开发_image_44.png)
 
 ```javascript
 import { interval } from "rxjs"
@@ -2990,7 +2990,7 @@ interval(500)
 
 **scan**：类似 reduce，进行累计操作，但执行时机不同，数据源每次发出数据流 scan 都会执行。reduce 是发送出最终计算的结果，而 scan 是发出每次计算的结果。
 
-![](Angular/assets/Angular%20实战开发_image_45.png)
+![](assets/Angular%20实战开发_image_45.png)
 
 ```javascript
 import { interval } from "rxjs"
@@ -3008,7 +3008,7 @@ interval(500)
 
 **mergeAll：**交叉合并可观察对象。
 
-![](Angular/assets/Angular%20实战开发_image_46.png)
+![](assets/Angular%20实战开发_image_46.png)
 
 ```javascript
 import { fromEvent, interval } from "rxjs"
@@ -3024,7 +3024,7 @@ fromEvent(document, "click")
 
 **mergeMap**：交叉合并可观察对象以后对可观察对象发出的数据流进行转换。
 
-![](Angular/assets/Angular%20实战开发_image_47.png)
+![](assets/Angular%20实战开发_image_47.png)
 
 ```javascript
 import { of, interval } from "rxjs"
@@ -3039,7 +3039,7 @@ of("a", "b", "c")
 
 节流，可观察对象高频次向外部发出数据流，通过 throttleTime 限制在规定时间内每次只向订阅者传递一次数据流。
 
-![](Angular/assets/Angular%20实战开发_image_48.png)
+![](assets/Angular%20实战开发_image_48.png)
 
 ```javascript
 import { fromEvent } from "rxjs"
@@ -3054,7 +3054,7 @@ fromEvent(document, "click")
 
 防抖，触发高频事件，只响应最后一次。
 
-![](Angular/assets/Angular%20实战开发_image_49.png)
+![](assets/Angular%20实战开发_image_49.png)
 
 ```javascript
 import { fromEvent } from "rxjs"
@@ -3069,7 +3069,7 @@ fromEvent(document, "click")
 
 检测数据源当前发出的数据流是否和上次发出的相同，如相同，跳过，不相同，发出。
 
-![](Angular/assets/Angular%20实战开发_image_50.png)
+![](assets/Angular%20实战开发_image_50.png)
 
 ```javascript
 import { of } from "rxjs"
@@ -3084,7 +3084,7 @@ of(1, 1, 2, 2, 2, 1, 1, 2, 3, 3, 4)
 
 对数据流进行分组。
 
-![](Angular/assets/Angular%20实战开发_image_51.png)
+![](assets/Angular%20实战开发_image_51.png)
 
 ```javascript
 import { of } from "rxjs"
@@ -3111,7 +3111,7 @@ of(
 
 主数据源发出的数据流总是和支数据源中的最新数据流进行结合，返回数组。
 
-![](Angular/assets/Angular%20实战开发_image_52.png)
+![](assets/Angular%20实战开发_image_52.png)
 
 ```javascript
 import { fromEvent, interval } from "rxjs"
@@ -3124,7 +3124,7 @@ clicks.pipe(withLatestFrom(timer)).subscribe(console.log)
 
 ### 13.4.20 switchMap
 
-切换可观察对![](Angular/assets/Angular%20实战开发_image_53.png)png)
+切换可观察对![](assets/Angular%20实战开发_image_53.png)png)
 
 ```javascript
 import { fromEvent, interval } from "rxjs"
@@ -3411,9 +3411,9 @@ this.http.get(
 
 
 
-![](Angular/assets/Angular%20实战开发_image_53.png)
+![](assets/Angular%20实战开发_image_53.png)
 
-![](Angular/assets/Angular%20实战开发_image_54.png)
+![](assets/Angular%20实战开发_image_54.png)
 ### 14.6.1 请求拦截
 
 ```javascript
@@ -3517,7 +3517,7 @@ import { HTTP_INTERCEPTORS } from "@angular/common/http"
 
 NgRx 是 Angular 应用中实现全局状态管理的 Redux 架构解决方案。
 
-![](Angular/assets/Angular%20实战开发_image_54.png)
+![](assets/Angular%20实战开发_image_54.png)
 
 1. @ngrx/store：全局状态管理模块
 2. @ngrx/effects：处理副作用
@@ -3869,18 +3869,18 @@ export class AboutComponent {
 ```
 
 # 16. 动画
-![[Angular/assets/Angular 实战开发_image_55.gif]]
+![[assets/Angular 实战开发_image_55.gif]]
 ## 16.1 状态
 
 ### 16.6.1 什么是状态
 状态表示的是要进行运动的元素在运动的不同时期所呈现的样式。
-![[Angular/assets/Angular 实战开发_image_56.png]]
+![[assets/Angular 实战开发_image_56.png]]
 
 ### 16.6.2 状态的种类
 
 在 Angular 中，有三种类型的状态，分别为：`void`、`*`、`custom`
 
-![[Angular/assets/Angular 实战开发_image_57.png]]
+![[assets/Angular 实战开发_image_57.png]]
 
 void：当元素在内存中创建好但尚未被添加到 DOM 中或将元素从 DOM 中删除时会发生此状态
 \*：元素被插入到 DOM 树之后的状态，或者是已经在DOM树中的元素的状态，也叫默认状态
@@ -3890,11 +3890,11 @@ custom：自定义状态，元素默认就在页面之中，从一个状态运�
 
 进场动画是指元素被创建后以动画的形式出现在用户面前，进场动画的状态用 `void => *` 表示，别名为 `:enter`
 
-![[Angular/assets/Angular 实战开发_image_58.png]]
+![[assets/Angular 实战开发_image_58.png]]
 
 出场动画是指元素在被删除前执行的一段告别动画，出场动画的状态用 `* => void`，别名为 `:leave`
 
-![[Angular/assets/Angular 实战开发_image_59.png]]
+![[assets/Angular 实战开发_image_59.png]]
 
 #### 16.2 快速上手
 
@@ -4287,7 +4287,7 @@ Angular 提供了 `state` 方法用于定义状态。
 
 #### 16.9 路由动画
 
-![57](Angular/assets/Angular%20实战开发_image_60.gif)
+![57](assets/Angular%20实战开发_image_60.gif)
 
 1. 为路由添加状态标识，此标识即为路由执行动画时的自定义状态
 
